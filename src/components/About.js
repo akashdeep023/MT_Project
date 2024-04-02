@@ -7,7 +7,7 @@ const About = () => {
 				About <span className="text-black">Us</span>
 			</h1>
 			<div className="w-full flex items-center justify-center">
-				<div className="w-full p-4 items-center text-black">
+				<div className="w-full p-4 items-center text-black ps-10">
 					<div>
 						<h2 className="font-semibold text-3xl my-4">
 							Who are we?

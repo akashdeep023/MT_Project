@@ -13,6 +13,25 @@ body {
   color: #fff;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #071013;
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #f97316;
+  border-radius: 50px;
+}
+
+.bg-color {
+  background-color: #071013;
+}
+
+.box-shadow-cs:hover {
+  box-shadow: -2px -2px 20px #f97316, 2px 2px 20px #f97316;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

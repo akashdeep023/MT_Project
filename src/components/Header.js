@@ -4,7 +4,7 @@ import HEAD_LOGO from "../Images/head-logo.png";
 
 const Header = () => {
 	return (
-		<div className="flex justify-between items-center pr-4 fixed top-0 w-full">
+		<div className="flex justify-between items-center pr-4 fixed top-0 w-full bg-color">
 			<div className="flex m-2">
 				<img className="h-10 m-2" src={MT_LOGO}></img>
 				<img className="h-10 m-2" src={HEAD_LOGO}></img>
